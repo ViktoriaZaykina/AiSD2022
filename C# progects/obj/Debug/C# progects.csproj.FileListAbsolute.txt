@@ -1,0 +1,16 @@
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.csproj.AssemblyReference.cache
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.csproj.SuggestedBindingRedirects.cache
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\MainWindow.g.cs
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\App.g.cs
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects_MarkupCompile.cache
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects_MarkupCompile.lref
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\MainWindow.baml
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.g.resources
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C__progects.Properties.Resources.resources
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.csproj.GenerateResource.cache
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.exe
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\obj\Debug\C# progects.pdb
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\C# progects.exe.config
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\C# progects.exe
+C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\C# progects.pdb
