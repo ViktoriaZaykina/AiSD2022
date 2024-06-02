@@ -17,3 +17,19 @@ C:\Users\Виктория\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\WpfApp1.exe.config
 C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\WpfApp1.exe
 C:\Users\Виктория\source\repos\ConsoleApp1\C# progects\WpfApp1.pdb
+C:\Users\Виктория\Documents\GitHub\AiSD2022\ConsoleApp1\C# progects\WpfApp1.exe.config
+C:\Users\Виктория\Documents\GitHub\AiSD2022\ConsoleApp1\C# progects\WpfApp1.exe
+C:\Users\Виктория\Documents\GitHub\AiSD2022\ConsoleApp1\C# progects\WpfApp1.pdb
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Виктория\Documents\GitHub\AiSD2022\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
