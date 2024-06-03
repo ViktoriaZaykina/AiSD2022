@@ -44,12 +44,10 @@ namespace AB
             Button btn = new Button();
             btn.Content = "Старт!";
             btn.FontSize = 52;
-            //btn.Width = 10;
             btn.Height = 100;
             btn.FontWeight = FontWeights.Bold;
             btn.HorizontalAlignment = HorizontalAlignment.Stretch;
             btn.VerticalAlignment = VerticalAlignment.Center;
-
             btn.Click += ButtonOnClick;
             mainGrid.Children.Add(btn);
             Grid.SetRow(btn, 1);
@@ -58,18 +56,28 @@ namespace AB
             canv1.Background = imgbrush;
             canv1.Height = 700;
             mainGrid.Children.Add(canv1);
-
-
-            Ellipse elips = new Ellipse();
-            elips.Fill = Brushes.Red;
-            elips.Width = 100;
-            elips.Height = 100;
-            Canvas.SetTop(elips, 600);
-            Canvas.SetLeft(elips, 0);
-            canv1.Children.Add(elips);
             Grid.SetRow(canv1, 0);
 
-
+            Rectangle rec = new Rectangle();
+            rec.Width = 40;
+            rec.Height = 180;
+            rec.Fill = Brushes.RosyBrown;
+            rec.Stroke = Brushes.Black;
+            canv1.Children.Add(rec);
+            Ellipse elips1 = new Ellipse();
+            elips1.Width = 160;
+            elips1.Height = elips1.Width * 2;
+            elips1.Fill = Brushes.RosyBrown;
+            elips1.Stroke = Brushes.Black;
+            elips1.Clip = new CombinedGeometry(
+              GeometryCombineMode.Exclude,
+              new RectangleGeometry(new Rect(new System.Windows.Point(0, elips1.Height / 2), new Size(elips1.Width, elips1.Height / 2))),
+              new EllipseGeometry(new System.Windows.Point(elips1.Width / 2, elips1.Width), elips1.Width / 2 * 0.7, elips1.Width * 0.8));
+            Canvas.SetLeft(rec, 250);
+            Canvas.SetTop(rec, 700 - rec.Height);
+            Canvas.SetLeft(elips1, Canvas.GetLeft(rec) + (rec.Width - elips1.Width) / 2);
+            Canvas.SetTop(elips1, Canvas.GetTop(rec) - elips1.Height + 20);
+            canv1.Children.Add(elips1); 
         }
         void ButtonOnClick(object sender, RoutedEventArgs args)
         {
