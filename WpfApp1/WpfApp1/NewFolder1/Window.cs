@@ -69,15 +69,77 @@ namespace AB
             elips1.Height = elips1.Width * 2;
             elips1.Fill = Brushes.RosyBrown;
             elips1.Stroke = Brushes.Black;
-            elips1.Clip = new CombinedGeometry(
-              GeometryCombineMode.Exclude,
-              new RectangleGeometry(new Rect(new System.Windows.Point(0, elips1.Height / 2), new Size(elips1.Width, elips1.Height / 2))),
-              new EllipseGeometry(new System.Windows.Point(elips1.Width / 2, elips1.Width), elips1.Width / 2 * 0.7, elips1.Width * 0.8));
+            elips1.Clip = new CombinedGeometry(GeometryCombineMode.Exclude,new RectangleGeometry(new Rect(new System.Windows.Point(0, elips1.Height / 2), new Size(elips1.Width, elips1.Height / 2))),
+            new EllipseGeometry(new System.Windows.Point(elips1.Width / 2, elips1.Width), elips1.Width / 2 * 0.7, elips1.Width * 0.8));
             Canvas.SetLeft(rec, 250);
             Canvas.SetTop(rec, 700 - rec.Height);
             Canvas.SetLeft(elips1, Canvas.GetLeft(rec) + (rec.Width - elips1.Width) / 2);
             Canvas.SetTop(elips1, Canvas.GetTop(rec) - elips1.Height + 20);
-            canv1.Children.Add(elips1); 
+            canv1.Children.Add(elips1);
+
+            Uri uri2 = new Uri("Resources/redb.png", UriKind.Relative);
+            BitmapImage bitmap2 = new BitmapImage(uri2);
+            ImageBrush imgbrush2 = new ImageBrush(bitmap2);
+
+            Ellipse elips2 = new Ellipse();
+            elips2.Fill = imgbrush2;
+            elips2.Width = 90;
+            elips2.Height = 90;
+            Canvas.SetLeft(elips2, 0);
+            Canvas.SetTop(elips2, 610);
+            canv1.Children.Add(elips2);
+
+            Rectangle rec2 = new Rectangle();
+            rec2.Width = 50;
+            rec2.Height = 280;
+            rec2.Fill = Brushes.RosyBrown;
+            rec2.Stroke = Brushes.Black;
+            Canvas.SetLeft(rec2, 900);
+            Canvas.SetTop(rec2, 700 - rec2.Height);
+            canv1.Children.Add(rec2);
+
+            Uri uri3 = new Uri("Resources/svin2.png", UriKind.Relative);
+            BitmapImage bitmap3 = new BitmapImage(uri3);
+            ImageBrush imgbrush3 = new ImageBrush(bitmap3);
+
+            Ellipse elips3 = new Ellipse();
+            elips3.Fill = imgbrush3;
+            elips3.Width = 110;
+            elips3.Height = 105;
+            Canvas.SetLeft(elips3, 870);
+            Canvas.SetTop(elips3, 318);
+            canv1.Children.Add(elips3);
+
+            Rectangle rec3 = new Rectangle();
+            rec3.Width = 280;
+            rec3.Height = 50;
+            rec3.Fill = Brushes.RosyBrown;
+            rec3.Stroke = Brushes.Black;
+            Canvas.SetLeft(rec3, 950);
+            Canvas.SetTop(rec3, 550);
+            canv1.Children.Add(rec3);
+
+            Rectangle rec4 = new Rectangle();
+            rec4.Width = 50;
+            rec4.Height = 400;
+            rec4.Fill = Brushes.RosyBrown;
+            rec4.Stroke = Brushes.Black;
+            Canvas.SetLeft(rec4, 1180);
+            Canvas.SetTop(rec4, 700 - rec4.Height);
+            canv1.Children.Add(rec4);
+
+            Uri uri4 = new Uri("Resources/svin1.png", UriKind.Relative);
+            BitmapImage bitmap4 = new BitmapImage(uri4);
+            ImageBrush imgbrush4 = new ImageBrush(bitmap4);
+
+            Ellipse elips4 = new Ellipse();
+            elips4.Fill = imgbrush4;
+            elips4.Width = 115;
+            elips4.Height = 105;
+            Canvas.SetLeft(elips4, 1148);
+            Canvas.SetBottom(elips4,396);
+            canv1.Children.Add(elips4);
+
         }
         void ButtonOnClick(object sender, RoutedEventArgs args)
         {
